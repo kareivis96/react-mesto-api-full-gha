@@ -11,7 +11,12 @@ const { PORT = 3000 } = process.env;
 const app = express();
 
 async function start() {
-  await mongoose.connect('mongodb://localhost:27017/db');
+  try {
+    await mongoose.connect('mongodb://localhost:27017/db');
+  } catch (err) {
+    logger.error(err);
+    throw new Error('Не удалось подключиться к MongoDB');
+  }
   logger.info('Connected to MongoDB');
 
   app.use(requestLogger);
