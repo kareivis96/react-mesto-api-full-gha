@@ -1,0 +1,15 @@
+.card__img {
+  cursor: pointer;
+  width: 282px;
+  height: 282px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 0 0;
+  display: block;
+  transition: all .3s ease;
+  background-color: #000;
+}
+
+.card__img:hover {
+  opacity: .9;
+}

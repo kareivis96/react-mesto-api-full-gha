@@ -1,0 +1,17 @@
+.gallery__list {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 50px 0 0 0;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-template-rows: repeat(auto-fit, 361px);
+  justify-content: center;
+  gap: 20px 17px;
+}
+
+@media (max-width: 320px) {
+  .gallery__list {
+    padding: 36px 0 0 0;
+  }
+}

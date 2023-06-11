@@ -1,0 +1,25 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "ignorePatterns": [
+    "**/node_modules/*"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_id"
+        ]
+      }
+    ]
+  }
+}

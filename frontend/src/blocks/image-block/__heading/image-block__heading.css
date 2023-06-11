@@ -1,0 +1,8 @@
+.image-block__heading {
+  margin: 10px 0 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15/12);
+  color: #ffffff;
+}
