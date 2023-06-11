@@ -12,7 +12,7 @@ const app = express();
 
 async function start() {
   try {
-    await mongoose.connect('mongodb://localhost:27017/db');
+    await mongoose.connect('mongodb://127.0.0.1:27017/db');
   } catch (err) {
     logger.error(err);
     throw new Error('Не удалось подключиться к MongoDB');
