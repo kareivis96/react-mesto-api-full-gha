@@ -22,6 +22,6 @@
 
 ## Ссылки на проект
 
-[Frontend](instagramm-na-minimakah.nomoredomains.rocks)
+[Frontend](http://instagramm-na-minimakah.nomoredomains.rocks)
 
-[Backend](api.instagramm-na-minima.nomoredomains.rocks)
+[Backend](http://api.instagramm-na-minima.nomoredomains.rocks)
